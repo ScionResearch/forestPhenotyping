@@ -5,6 +5,7 @@ Developped in Python.
 
 ## What it does
 The programme shows the different stages developed to compare three gradient boosting approaches: XGBoost, CatBoost, and LightGBM. The input is a large dataset representing a 25x25m area within the forest and composed of variables describing climate, forest management, tree genetics, and fine-scale terrain information extracted from environmental surfaces. 
+
 The second script shows the usage of the predictions from the models to extract the features of importance, drivers of the productivity accross the forest (Gini score or Gain) or for the individual area (Shapley values).
 
 ## Credits
