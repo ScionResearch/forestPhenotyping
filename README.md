@@ -4,18 +4,15 @@ A machine learning approach to model productivity based on area calculated featu
 Developped in Python.
 
 ## What it does
-
-
-## Usage
-
-
-
+The programme shows the different stages developed to compare three gradient boosting approaches: XGBoost, CatBoost, and LightGBM. The input is a large dataset representing a 25x25m area within the forest and composed of variables describing climate, forest management, tree genetics, and fine-scale terrain information extracted from environmental surfaces. 
+The second script shows the usage of the predictions from the models to extract the features of importance, drivers of the productivity accross the forest (Gini score or Gain) or for the individual area (Shapley values).
 
 ## Credits
+The authors would like to acknowledge the contribution of the forest manager Timberlands Ltd. for generously providing datasets, contributing significant staff time to dealing with our data requests and questions, and providing access to the forest. This research was undertaken as part of the Growing Confidence in Forestry's Future research programme, which is jointly funded by the New Zealand Ministry of Business, Innovation and Employment (contract No C04X1306) and the Forest Growers Levy Trust. We recognise the contribution of the whole GCFF team at Scion (NZ Forest Research Institute) team who provided useful discussions and helped with the development of the concepts applied in this research.
 
-The authors would like to acknowledge the contribution of the forest manager Timberlands Ltd. for generously providing datasets, contributing significant staff time to dealing with our data requests and questions, and providing access to the forest. This research was undertaken as part of the Growing Confidence in Forestry's Future research programme, which is jointly funded by the New Zealand Ministry of Business, Innovation and Employment (contract No C04X1306) and the Forest Growers Levy Trust. We recognise the contribution of the whole GCFF team at Scion (NZ Forest Research Institute) team who provided useful discussions and helped with the development of the concepts applied in this research.\\
 The authors were employed by the New Zealand Forest Research Institute Limited, trading as Scion. The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
 
+Due to data protection, we cannot share the exact content of the DataFrame, however, the list of features studied in this project are detailed in Bombrun et al., 2020 (under review).
 
 ## License 
 
